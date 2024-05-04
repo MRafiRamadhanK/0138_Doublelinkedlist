@@ -62,4 +62,9 @@ void addNode() {
 	}
 }
 
-bool search(int rolNo, Node **previous, Node **current)
+bool search(int rolNo, Node** previous, Node** current)
+{
+	*previous = NULL;
+	*current = START;
+
+}
