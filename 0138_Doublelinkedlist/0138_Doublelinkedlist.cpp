@@ -55,5 +55,9 @@ void addNode() {
 		{
 			previous->next = newNode;
 		}
+		else
+		{
+			start = newNode;
+		}
 	}
 }
